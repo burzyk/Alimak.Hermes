@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */; };
+		8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */; };
+		8EDC1AA01DAAFD04009BD29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9E1DAAFD04009BD29B /* Main.storyboard */; };
+		8EDC1AA21DAAFD04009BD29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */; };
+		8EDC1AA51DAAFD04009BD29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EDC1A971DAAFD04009BD29B /* AlimakHermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlimakHermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EDC1A9F1DAAFD04009BD29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDC1AA41DAAFD04009BD29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EDC1AA61DAAFD04009BD29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDC1A941DAAFD04009BD29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDC1A8E1DAAFD04009BD29B = {
+			isa = PBXGroup;
+			children = (
+				8EDC1A991DAAFD04009BD29B /* AlimakHermes */,
+				8EDC1A981DAAFD04009BD29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDC1A981DAAFD04009BD29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC1A971DAAFD04009BD29B /* AlimakHermes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDC1A991DAAFD04009BD29B /* AlimakHermes */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */,
+				8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */,
+				8EDC1A9E1DAAFD04009BD29B /* Main.storyboard */,
+				8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */,
+				8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */,
+				8EDC1AA61DAAFD04009BD29B /* Info.plist */,
+			);
+			path = AlimakHermes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDC1A961DAAFD04009BD29B /* AlimakHermes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDC1AA91DAAFD04009BD29B /* Build configuration list for PBXNativeTarget "AlimakHermes" */;
+			buildPhases = (
+				8EDC1A931DAAFD04009BD29B /* Sources */,
+				8EDC1A941DAAFD04009BD29B /* Frameworks */,
+				8EDC1A951DAAFD04009BD29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlimakHermes;
+			productName = AlimakHermes;
+			productReference = 8EDC1A971DAAFD04009BD29B /* AlimakHermes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDC1A8F1DAAFD04009BD29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "JPBNET SOFTWARE";
+				TargetAttributes = {
+					8EDC1A961DAAFD04009BD29B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 85T5LU9SRL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8EDC1A921DAAFD04009BD29B /* Build configuration list for PBXProject "AlimakHermes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDC1A8E1DAAFD04009BD29B;
+			productRefGroup = 8EDC1A981DAAFD04009BD29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDC1A961DAAFD04009BD29B /* AlimakHermes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDC1A951DAAFD04009BD29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC1AA51DAAFD04009BD29B /* LaunchScreen.storyboard in Resources */,
+				8EDC1AA21DAAFD04009BD29B /* Assets.xcassets in Resources */,
+				8EDC1AA01DAAFD04009BD29B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDC1A931DAAFD04009BD29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */,
+				8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EDC1A9E1DAAFD04009BD29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDC1A9F1DAAFD04009BD29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDC1AA41DAAFD04009BD29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDC1AA71DAAFD04009BD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EDC1AA81DAAFD04009BD29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDC1AAA1DAAFD04009BD29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85T5LU9SRL;
+				INFOPLIST_FILE = AlimakHermes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpbnetsoftware.AlimakHermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8EDC1AAB1DAAFD04009BD29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85T5LU9SRL;
+				INFOPLIST_FILE = AlimakHermes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jpbnetsoftware.AlimakHermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDC1A921DAAFD04009BD29B /* Build configuration list for PBXProject "AlimakHermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC1AA71DAAFD04009BD29B /* Debug */,
+				8EDC1AA81DAAFD04009BD29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDC1AA91DAAFD04009BD29B /* Build configuration list for PBXNativeTarget "AlimakHermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDC1AAA1DAAFD04009BD29B /* Debug */,
+				8EDC1AAB1DAAFD04009BD29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EDC1A8F1DAAFD04009BD29B /* Project object */;
+}
