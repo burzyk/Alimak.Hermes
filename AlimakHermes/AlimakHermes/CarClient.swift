@@ -10,7 +10,7 @@ import Foundation
 
 class CarClient {
     
-    public func drive(speed: float_t) {
+    public func drive(speed: Double) {
         
     }
     

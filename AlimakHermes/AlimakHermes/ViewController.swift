@@ -47,11 +47,11 @@ class ViewController: UIViewController {
     }
     
     func normalizeDrag(value: Double) {
-        value = max(value - threshold, 0) / resolution
-        value = min(value, 1)
+        // value = max(value - threshold, 0) / resolution
+        // value = min(value, 1)
         
         
-        x = x > 1 ? 1 : x < -1 ? -1 : x;
+        // x = x > 1 ? 1 : x < -1 ? -1 : x;
     }
 }
 

@@ -6,5 +6,5 @@ target 'AlimakHermes' do
   use_frameworks!
 
   # Pods for AlimakHermes
-
+  pod 'CocoaAsyncSocket' 
 end
