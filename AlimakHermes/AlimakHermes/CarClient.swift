@@ -11,14 +11,14 @@ import Foundation
 class CarClient {
     
     public func drive(speed: Double) {
-        
+        print("Driving: " + speed.description)
     }
     
     public func turnLeft() {
-        
+        print("turnLeft: ")
     }
     
     public func turnRight() {
-        
+        print("turnRight: ")
     }
 }
