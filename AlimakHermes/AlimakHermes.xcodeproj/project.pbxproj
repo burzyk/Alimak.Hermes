@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1885A1866A25845EE28F117A /* Pods_AlimakHermes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9EA7EAF7F5159748CB6FA5 /* Pods_AlimakHermes.framework */; };
+		8E11D55C1DD4EF1E006EE226 /* CarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E11D55B1DD4EF1E006EE226 /* CarClient.swift */; };
 		8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */; };
 		8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */; };
 		8EDC1AA01DAAFD04009BD29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9E1DAAFD04009BD29B /* Main.storyboard */; };
@@ -15,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311E4CC8CE7D427972AACBBB /* Pods-AlimakHermes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlimakHermes.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes.release.xcconfig"; sourceTree = "<group>"; };
+		8D9EA7EAF7F5159748CB6FA5 /* Pods_AlimakHermes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlimakHermes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E11D55B1DD4EF1E006EE226 /* CarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClient.swift; sourceTree = "<group>"; };
 		8EDC1A971DAAFD04009BD29B /* AlimakHermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlimakHermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EDC1AA41DAAFD04009BD29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDC1AA61DAAFD04009BD29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07A74D05D0C08B806E0434F /* Pods-AlimakHermes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlimakHermes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1885A1866A25845EE28F117A /* Pods_AlimakHermes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E4A65BF53E897FF6B8BD584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9EA7EAF7F5159748CB6FA5 /* Pods_AlimakHermes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8EDC1A8E1DAAFD04009BD29B = {
 			isa = PBXGroup;
 			children = (
 				8EDC1A991DAAFD04009BD29B /* AlimakHermes */,
 				8EDC1A981DAAFD04009BD29B /* Products */,
+				A03D14FC4D9986532D85085A /* Pods */,
+				2E4A65BF53E897FF6B8BD584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +77,18 @@
 				8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */,
 				8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */,
 				8EDC1AA61DAAFD04009BD29B /* Info.plist */,
+				8E11D55B1DD4EF1E006EE226 /* CarClient.swift */,
 			);
 			path = AlimakHermes;
+			sourceTree = "<group>";
+		};
+		A03D14FC4D9986532D85085A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07A74D05D0C08B806E0434F /* Pods-AlimakHermes.debug.xcconfig */,
+				311E4CC8CE7D427972AACBBB /* Pods-AlimakHermes.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EDC1AA91DAAFD04009BD29B /* Build configuration list for PBXNativeTarget "AlimakHermes" */;
 			buildPhases = (
+				598F065C7EE43A2FDA391D0C /* [CP] Check Pods Manifest.lock */,
 				8EDC1A931DAAFD04009BD29B /* Sources */,
 				8EDC1A941DAAFD04009BD29B /* Frameworks */,
 				8EDC1A951DAAFD04009BD29B /* Resources */,
+				75263ABCA0EF7077B5F4D7A4 /* [CP] Embed Pods Frameworks */,
+				B5E3853CC63B04C8D28BA94C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,11 +162,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		598F065C7EE43A2FDA391D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75263ABCA0EF7077B5F4D7A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E3853CC63B04C8D28BA94C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EDC1A931DAAFD04009BD29B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E11D55C1DD4EF1E006EE226 /* CarClient.swift in Sources */,
 				8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */,
 				8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */,
 			);
@@ -259,6 +338,7 @@
 		};
 		8EDC1AAA1DAAFD04009BD29B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07A74D05D0C08B806E0434F /* Pods-AlimakHermes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 85T5LU9SRL;
@@ -272,6 +352,7 @@
 		};
 		8EDC1AAB1DAAFD04009BD29B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311E4CC8CE7D427972AACBBB /* Pods-AlimakHermes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 85T5LU9SRL;
@@ -302,6 +383,7 @@
 				8EDC1AAB1DAAFD04009BD29B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
