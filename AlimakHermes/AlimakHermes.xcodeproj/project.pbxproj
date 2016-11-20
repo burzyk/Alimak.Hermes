@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1885A1866A25845EE28F117A /* Pods_AlimakHermes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9EA7EAF7F5159748CB6FA5 /* Pods_AlimakHermes.framework */; };
-		8E11D55C1DD4EF1E006EE226 /* CarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E11D55B1DD4EF1E006EE226 /* CarClient.swift */; };
+		8E11D55C1DD4EF1E006EE226 /* UdpCarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E11D55B1DD4EF1E006EE226 /* UdpCarClient.swift */; };
 		8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */; };
 		8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */; };
 		8EDC1AA01DAAFD04009BD29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1A9E1DAAFD04009BD29B /* Main.storyboard */; };
 		8EDC1AA21DAAFD04009BD29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */; };
 		8EDC1AA51DAAFD04009BD29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */; };
+		8EFD51991DE2051000F99A48 /* CarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD51981DE2051000F99A48 /* CarClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		311E4CC8CE7D427972AACBBB /* Pods-AlimakHermes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlimakHermes.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes.release.xcconfig"; sourceTree = "<group>"; };
 		8D9EA7EAF7F5159748CB6FA5 /* Pods_AlimakHermes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlimakHermes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E11D55B1DD4EF1E006EE226 /* CarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClient.swift; sourceTree = "<group>"; };
+		8E11D55B1DD4EF1E006EE226 /* UdpCarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpCarClient.swift; sourceTree = "<group>"; };
 		8EDC1A971DAAFD04009BD29B /* AlimakHermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlimakHermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC1A9A1DAAFD04009BD29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDC1A9C1DAAFD04009BD29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EDC1AA41DAAFD04009BD29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDC1AA61DAAFD04009BD29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFD51981DE2051000F99A48 /* CarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClient.swift; sourceTree = "<group>"; };
 		F07A74D05D0C08B806E0434F /* Pods-AlimakHermes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlimakHermes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +79,8 @@
 				8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */,
 				8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */,
 				8EDC1AA61DAAFD04009BD29B /* Info.plist */,
-				8E11D55B1DD4EF1E006EE226 /* CarClient.swift */,
+				8E11D55B1DD4EF1E006EE226 /* UdpCarClient.swift */,
+				8EFD51981DE2051000F99A48 /* CarClient.swift */,
 			);
 			path = AlimakHermes;
 			sourceTree = "<group>";
@@ -215,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E11D55C1DD4EF1E006EE226 /* CarClient.swift in Sources */,
+				8E11D55C1DD4EF1E006EE226 /* UdpCarClient.swift in Sources */,
+				8EFD51991DE2051000F99A48 /* CarClient.swift in Sources */,
 				8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */,
 				8EDC1A9B1DAAFD04009BD29B /* AppDelegate.swift in Sources */,
 			);

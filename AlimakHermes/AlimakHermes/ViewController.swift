@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     let threshold = 20.0
     
-    let carClient = CarClient()
+    let carClient: CarClient = UdpCarClient()
     
     var x = 0.0
     
