@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     let threshold = 20.0
     
-    let carClient: CarClient = UdpCarClient()
+    let carClient: CarClient = HttpCarClient()
     
     var x = 0.0
     
@@ -41,8 +41,6 @@ class ViewController: UIViewController {
             
             if (abs(self.y) > 0.1) {
                 self.carClient.drive(speed: self.y)
-            } else {
-                self.carClient.drive(speed: 0)
             }
         }
     }

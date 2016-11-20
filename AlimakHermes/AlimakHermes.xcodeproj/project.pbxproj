@@ -15,6 +15,7 @@
 		8EDC1AA21DAAFD04009BD29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */; };
 		8EDC1AA51DAAFD04009BD29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */; };
 		8EFD51991DE2051000F99A48 /* CarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD51981DE2051000F99A48 /* CarClient.swift */; };
+		8EFD519B1DE205F500F99A48 /* HttpCarClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFD519A1DE205F500F99A48 /* HttpCarClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8EDC1AA41DAAFD04009BD29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDC1AA61DAAFD04009BD29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFD51981DE2051000F99A48 /* CarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClient.swift; sourceTree = "<group>"; };
+		8EFD519A1DE205F500F99A48 /* HttpCarClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpCarClient.swift; sourceTree = "<group>"; };
 		F07A74D05D0C08B806E0434F /* Pods-AlimakHermes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlimakHermes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlimakHermes/Pods-AlimakHermes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				8EDC1AA11DAAFD04009BD29B /* Assets.xcassets */,
 				8EDC1AA31DAAFD04009BD29B /* LaunchScreen.storyboard */,
 				8EDC1AA61DAAFD04009BD29B /* Info.plist */,
+				8EFD519A1DE205F500F99A48 /* HttpCarClient.swift */,
 				8E11D55B1DD4EF1E006EE226 /* UdpCarClient.swift */,
 				8EFD51981DE2051000F99A48 /* CarClient.swift */,
 			);
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFD519B1DE205F500F99A48 /* HttpCarClient.swift in Sources */,
 				8E11D55C1DD4EF1E006EE226 /* UdpCarClient.swift in Sources */,
 				8EFD51991DE2051000F99A48 /* CarClient.swift in Sources */,
 				8EDC1A9D1DAAFD04009BD29B /* ViewController.swift in Sources */,
