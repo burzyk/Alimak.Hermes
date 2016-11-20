@@ -41,6 +41,8 @@ class ViewController: UIViewController {
             
             if (abs(self.y) > 0.1) {
                 self.carClient.drive(speed: self.y)
+            } else {
+                self.carClient.drive(speed: 0)
             }
         }
     }
