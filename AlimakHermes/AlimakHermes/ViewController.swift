@@ -30,21 +30,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { (timer) in
-            if (self.x > 0.5) {
-                self.carClient.turnRight()
-            }
-            
-            if (self.x < -0.5) {
-                self.carClient.turnLeft()
-            }
-            
-            if (abs(self.y) > 0.1) {
-                self.carClient.drive(speed: self.y)
-            }
+        /*
+        Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { (timer) in
+            self.updateCar()
         }
+ */
     }
 
+    func updateCar() {
+        self.carClient.turn(percentage: self.x > 0.5 ? 1 : self.x < -0.5 ? -1 : 0)
+        self.carClient.drive(speed: abs(self.y) > 0.1 ? self.y : 0)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -63,6 +60,8 @@ class ViewController: UIViewController {
         
         label1.text = x.description
         label2.text = y.description
+        
+        self.updateCar()
     }
     
     func normalizeDrag(value: CGFloat) -> Double {

@@ -12,7 +12,5 @@ protocol CarClient {
     
     func drive(speed: Double);
     
-    func turnLeft();
-    
-    func turnRight();
+    func turn(percentage: Double);
 }

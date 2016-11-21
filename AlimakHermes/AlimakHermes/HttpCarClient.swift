@@ -11,11 +11,13 @@ import Alamofire
 
 class HttpCarClient : CarClient {
     
-    var url = "http://192.168.1.105:8080"
+    let url = "http://192.168.1.102:8080"
+    
+    let duration = 1000
     
     public func drive(speed: Double) {
         print("Driving: " + speed.description)
-        let method = url + "/api/drive?speed=" + speed.description + "&duration=1000"
+        let method = url + "/api/drive?speed=" + speed.description + "&duration=" + duration.description
         
         Alamofire.request(method).response { response in
             _ = response.error
@@ -24,13 +26,8 @@ class HttpCarClient : CarClient {
         }
     }
     
-    public func turnLeft() {
-        print("turning left")
-        _ = Alamofire.request(url + "/api/turn?turnPercentage=-1&duration=1000")
-    }
-    
-    public func turnRight() {
-        print("turning right")
-        _ = Alamofire.request(url + "/api/turn?turnPercentage=1&duration=1000")
+    public func turn(percentage: Double) {
+        print("turning: " + percentage.description)
+        _ = Alamofire.request(url + "/api/turn?turnPercentage=" + percentage.description + "&duration=" + duration.description)
     }
 }

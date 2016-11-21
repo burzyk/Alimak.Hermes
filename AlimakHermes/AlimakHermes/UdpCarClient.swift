@@ -22,14 +22,9 @@ class UdpCarClient : NSObject, GCDAsyncUdpSocketDelegate, CarClient {
         sendMessage(motor: 1, speed: speed, duration: 1000)
     }
     
-    public func turnLeft() {
-        print("turning left")
-        sendMessage(motor: 2, speed: -1.0, duration: 1000)
-    }
-    
-    public func turnRight() {
-        print("turning right")
-        sendMessage(motor: 2, speed: 1.0, duration: 1000)
+    public func turn(percentage: Double) {
+        print("turning")
+        sendMessage(motor: 2, speed: percentage, duration: 1000)
     }
     
     public func udpSocket(_ sock: GCDAsyncUdpSocket, didSendDataWithTag tag: Int) {
